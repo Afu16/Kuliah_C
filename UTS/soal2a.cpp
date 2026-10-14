@@ -7,10 +7,11 @@ int main() {
 
     for (bil = 14; bil >= 2; bil--) 
     {
-        if (bil == 14 or bil == 10 or bil == 8 or bil == 6 or bil == 2) {
-            jumlah = jumlah + bil;
-            cout << bil << ' ';
-        }
+        if (bil == 13 or bil == 12 or bil == 11 or bil == 9 or bil == 7 or bil == 5 or bil == 4 or bil == 3)
+            continue;
+
+        jumlah = jumlah + bil;
+        cout << bil << ' ';
     }
 
     cout << "= " << jumlah;

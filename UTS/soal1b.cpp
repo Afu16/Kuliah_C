@@ -8,8 +8,10 @@ int main() {
     bil = 1;
     while (bil <= 9) 
     {
-        if (bil == 4 or bil == 6 or bil == 7 or bil == 8)
+        if (bil == 4 or bil == 6 or bil == 7 or bil == 8) {
+            bil++;
             continue;
+        }
 
         jumlah = jumlah + bil;
         cout << bil << ' ';
